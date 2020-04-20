@@ -17,7 +17,7 @@
 
       Ctrl-C  -  break from function
 
-To run navigator from anywhere enter this in to your .basrc
+To run navigator from anywhere enter this in to your .bashrc
      
 function navigator()
 {
