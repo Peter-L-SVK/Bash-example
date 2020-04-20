@@ -416,7 +416,7 @@ function info
 {
     clear
     echo "
-    Created by Peter Leukanič 2018 - 2019
+    Created by Peter Leukanič 2018 - 2020
     Feel free to spread and  modify. 
     Made for UNIX-like OSes in BASH.
     For help type "\"help"\".
