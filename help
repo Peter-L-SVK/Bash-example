@@ -1,0 +1,18 @@
+	Commands:			 	 
+      
+      ..      -  move one directory up	 
+      cd      -  change directory
+      clear   -  clear screen
+      content -  content of directory
+      copy    -  copy file
+      help    -  help
+      chmod   -	 change mode of file/directory
+      info    -  informations about navigator
+      mkdir   -  make new directory
+      paste   -  paste file
+      q       -  to quit
+      rm      -	 to remove file
+      rmdir   -	 remove directory and it's content if exists
+      usage   -	 list files sizes
+
+      Ctrl-C  -  break from function
