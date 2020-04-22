@@ -52,7 +52,6 @@ function copy
 	    clear
 	    echo "File $file_to_copy has been selected."
 	    printf "\n"
-	    file_to_copy=""
 
 	else
 	    clear
@@ -75,11 +74,19 @@ function paste
 	if ([ -f $path_to_copy_buffer ])
 	then
 	    path_for_copy=$(<"$path_to_copy_buffer")
-	    cp -r $path_for_copy $(pwd)
-	    clear
-	    echo "File $file_to_copy has been copied"
-	    printf "\n"
-	    path_for_copy=""
+	    if !([ -f $path_to_copy ])
+	    then
+		cp -r $path_for_copy $(pwd)
+		clear
+		echo "File $file_to_copy has been copied"
+		printf "\n"
+		path_for_copy=""
+	    else
+		clear
+		echo "File $file_to_copy already exits!"
+		printf "\n"
+		path_for_copy=""
+	    fi
 
 	else
 	    clear
