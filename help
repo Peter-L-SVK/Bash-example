@@ -22,7 +22,7 @@ To run navigator from anywhere enter this in to your .bashrc
 function navigator()
 {
 	default_position=$(pwd)
-	path_to_script="/home/xgf/Desktop/bash/navigator/"
+	path_to_script=<PATH_TO_SCRIPT> #f.e. /home/currrentuser/
 	cd $path_to_script
 	$path_to_script/navigator.sh "$default_position"
 	echo "Navigator ended."
